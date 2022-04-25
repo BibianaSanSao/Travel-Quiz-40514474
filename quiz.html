@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="style.css" rel="stylesheet">
+  
+  <title>Quiz App</title>
+</head>
+<body>
+  <ul class="flex-quiz">
+
+        <li class="flex-item">
+            <img class="left" src="qzLeft.png">
+        </li>
+
+
+
+        <li class="flex-item">
+            <div class = "container">
+
+                <div class="quiz-box">
+                    <div id="quiz">
+                        <img class ="logo" src="qzLogo.png">
+                    
+                        <p id="question"></p>
+        
+                        <div class="buttons">
+                            <button class="btn" id="btn0"><span id="choice0"></span></button>
+                            <button class="btn" id="btn1"><span id="choice1"></span></button>
+                            <button class="btn" id="btn2"><span id="choice2"></span></button>
+                        </div>
+                        
+                        <p id="progress">Question x of y</p>
+                        
+                        
+                    </div>
+                </div>
+        </li>
+    
+        <li class="flex-item">
+            <img class="right" src="qzRight.png">
+        </li>
+    </ul>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>

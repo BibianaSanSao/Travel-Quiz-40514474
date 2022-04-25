@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body{
+    background-color: #EBDBCC;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;     
+}
+
+/*home page*/   
+article{
+    text-align: center;
+}
+
+/*image home page*/
+.home{
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.startBtn {
+    font-family:'Montserrat', sans-serif;
+    background-color: #792D62;
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+   
+  /*main container*/ 
+.flex-quiz{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    flex-flow: row wrap;
+}
+   
+  /*imagen on the left*/ 
+.flex-item .left{
+    background: #EBDBCC;
+    padding-left: 10px;
+    width: 400px;
+    height: 560px;
+    margin-top: 20px;
+    text-align: center;
+}
+  
+  
+  /*imagen on the right*/ 
+.flex-item .right{
+    background: #EBDBCC;
+    padding-right: 10px;
+    width: 400px;
+    height: 560px;
+    margin-top: 20px;
+    text-align: center;
+}
+  
+p {
+    color: #231709;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 18px;
+    text-align: center;
+}
+  
+p1 {
+    color: #2F4650;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 30px;
+}
+  
+p2{
+    color: #231709;
+    font-family: 'Kalam', cursive;
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 30px;
+    
+}
+  
+.logo{
+    display:block;
+    margin:auto;
+    width: 280px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+      
+}
+  
+.container {
+    width: 420px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+  
+.quiz-box {
+    width: 420px;
+    height: 560px;
+    background-color: #EBDBCC;
+    padding-right: 20px;  
+    padding-left: 20px;  
+}
+  
+.quiz-box h1 {
+    font-size: 40px;
+    text-align: center;
+    color: #7b5b64;
+    width: 100%;
+     
+}
+  
+#progress {
+    color: #2F4650;
+    font-size: 16px;
+      
+}
+  
+.quiz-box #question {
+    font-size: 28px;
+    font-family: 'Kalam', cursive;
+    color: #231709;
+    align-items: center;
+     
+            
+}
+  
+.buttons {
+    margin-top: 10px ;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+  
+.btn {
+    text-align: center;
+    background-color: white;
+    width: 100%;
+    font-size: 20px;
+    font-family: 'Kalam', cursive;
+    font-weight: 600px;
+    border: 1px solid #EBDBCC;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 5px 10px 5px 10px;
+    outline: none;
+}
+  
+.btn:hover {
+    cursor: pointer;
+    background-color:#792D62;
+    color: #fff;
+    transition: 0.3s
+}
+  
+  
+.quiz-repeat { 
+    vertical-align: middle;
+    padding-top: 30px;
+}
+  
+.quiz-repeat a {
+    font-family:'Montserrat', sans-serif;
+    background-color: #792D62;
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+      
+}
+  
+  
+
+  
+  
+  
