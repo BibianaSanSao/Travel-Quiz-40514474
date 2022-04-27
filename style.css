@@ -1,7 +1,9 @@
+/*fonts used from Google Font*/
 @import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
+/*style the body*/
 body{
     background-color: #EBDBCC;
     padding: 0;
@@ -22,7 +24,8 @@ article{
     margin-right: auto;
 }
 
-.startBtn {
+/*start button*/
+.startBtn{
     font-family:'Montserrat', sans-serif;
     background-color: #792D62;
     color: #fff;
@@ -33,7 +36,7 @@ article{
 }
 
    
-  /*main container*/ 
+/*main container*/ 
 .flex-quiz{
     padding: 0;
     margin: 0;
@@ -42,7 +45,7 @@ article{
     flex-flow: row wrap;
 }
    
-  /*imagen on the left*/ 
+/*imagen on the left*/ 
 .flex-item .left{
     background: #EBDBCC;
     padding-left: 10px;
@@ -53,7 +56,7 @@ article{
 }
   
   
-  /*imagen on the right*/ 
+/*imagen on the right*/ 
 .flex-item .right{
     background: #EBDBCC;
     padding-right: 10px;
@@ -63,30 +66,36 @@ article{
     text-align: center;
 }
   
-p {
+/*paragraph*/
+p{
     color: #231709;
     font-family: 'Roboto Mono', monospace;
     font-size: 18px;
     text-align: center;
 }
   
-p1 {
+/*paragraph for */
+h2{
     color: #2F4650;
     font-family: 'Roboto Mono', monospace;
-    font-size: 30px;
+    font-size: 25px;
     text-align: center;
-    padding-bottom: 30px;
+    
 }
-  
-p2{
+ 
+/*paragraph for */
+h3{
     color: #231709;
     font-family: 'Kalam', cursive;
     font-size: 30px;
+    font-weight: 200;
     text-align: center;
-    padding-bottom: 30px;
+    padding-top: 20px;
+   
     
 }
-  
+ 
+/*image logo*/
 .logo{
     display:block;
     margin:auto;
@@ -95,7 +104,8 @@ p2{
     padding-bottom: 20px;
       
 }
-  
+ 
+/*the whole container were the quiz is displayed*/
 .container {
     width: 420px;
     height: auto;
@@ -103,7 +113,8 @@ p2{
     justify-content: center;
     align-items: center;   
 }
-  
+ 
+/*the quiz container*/
 .quiz-box {
     width: 420px;
     height: 560px;
@@ -112,6 +123,7 @@ p2{
     padding-left: 20px;  
 }
   
+/*heading for quiz container */
 .quiz-box h1 {
     font-size: 40px;
     text-align: center;
@@ -119,13 +131,15 @@ p2{
     width: 100%;
      
 }
-  
+ 
+/*progress of how many questions of the total are left*/
 #progress {
     color: #2F4650;
     font-size: 16px;
       
 }
-  
+ 
+/*questions of the quiz*/
 .quiz-box #question {
     font-size: 28px;
     font-family: 'Kalam', cursive;
@@ -134,13 +148,15 @@ p2{
      
             
 }
-  
+ 
+/*all the buttons align */
 .buttons {
     margin-top: 10px ;
     margin-bottom: 20px;
     padding-bottom: 20px;
 }
-  
+
+/*all the button style*/ 
 .btn {
     text-align: center;
     background-color: white;
@@ -154,7 +170,8 @@ p2{
     padding: 5px 10px 5px 10px;
     outline: none;
 }
-  
+ 
+/*when hover on the answers*/
 .btn:hover {
     cursor: pointer;
     background-color:#792D62;
@@ -162,21 +179,22 @@ p2{
     transition: 0.3s
 }
   
-  
+/*style the play again button*/ 
 .quiz-repeat { 
-    vertical-align: middle;
-    padding-top: 30px;
+    text-align: center;
+    padding-top: 10px;
 }
-  
+ 
+/*style when is a the link*/
 .quiz-repeat a {
     font-family:'Montserrat', sans-serif;
     background-color: #792D62;
     color: #fff;
     font-size: 18px;
     text-decoration: none;
+    text-align: center;
     padding: 10px;
-    border-radius: 5px;
-      
+    border-radius: 5px;     
 }
   
   
